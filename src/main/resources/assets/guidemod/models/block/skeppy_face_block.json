@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "guidemod:blocks/skeppy_face_block"
+  }
+}

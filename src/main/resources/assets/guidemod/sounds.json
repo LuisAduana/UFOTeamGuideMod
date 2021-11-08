@@ -1,0 +1,17 @@
+{
+  "entity.rainbow_pig_entity.ambient": {
+    "sounds": [
+      "guidemod:rainbow_pig_entity_ambient"
+    ]
+  },
+  "entity.rainbow_pig_entity.hurt": {
+    "sounds": [
+      "guidemod:rainbow_pig_entity_hurt"
+    ]
+  },
+  "entity.rainbow_pig_entity.death": {
+    "sounds": [
+      "guidemod:rainbow_pig_entity_death"
+    ]
+  }
+}

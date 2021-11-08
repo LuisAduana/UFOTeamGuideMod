@@ -1,0 +1,17 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="All rights reserved"
+[[mods]]
+modId="guidemod"
+version="1.0"
+displayName="Guide Mod"
+logoFile="Logo.png"
+credits="Gracias al equipo de desarrollo UFO TEAM"
+authors="UFO TEAM"
+description='''
+Este es un mod de guía creado por el equipo de desarrollo UFO Team.
+
+Cualquier duda o aclaración, por favor unirse a nuestro servidor de discord: www.discord.com
+
+By UFO Team - 2021
+'''
