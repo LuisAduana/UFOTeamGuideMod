@@ -22,11 +22,4 @@ public class GuideMod {
         GuideModEntities.ENTITIES.register(bus);
     }
 
-    public static final CreativeModeTab GUIDEMOD_TAB = new CreativeModeTab(GlobalVariables.MODID) {
-        @Override
-        public ItemStack makeIcon() {
-            return GuideModItems.SKEPPY_FACE_ITEM.get().getDefaultInstance();
-        }
-    };
-
 }
