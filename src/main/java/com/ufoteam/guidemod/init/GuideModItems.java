@@ -12,5 +12,10 @@ import net.minecraftforge.registries.ForgeRegistries;
 public final class GuideModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, GlobalVariables.MODID);
     public static final RegistryObject<Item> RAINBOW_APPLE_ITEM = ITEMS.register("rainbow_apple_item", () -> new Item(new Item.Properties().tab(GlobalVariables.GUIDEMOD_TAB)));
+    public static final RegistryObject<Item> TITANIUM_INGOT = ITEMS.register("titanium_ingot", () -> new Item(new Item.Properties().tab(GlobalVariables.GUIDEMOD_TAB)));
+    public static final RegistryObject<Item> titanium_nugget = ITEMS.register("titanium_nugget", () -> new Item(new Item.Properties().tab(GlobalVariables.GUIDEMOD_TAB)));
+    public static final RegistryObject<Item> raw_titanium = ITEMS.register("raw_titanium", () -> new Item(new Item.Properties().tab(GlobalVariables.GUIDEMOD_TAB)));
+
+    /** Entity Eggs */
     public static final RegistryObject<ForgeSpawnEggItem> RAINBOW_PIG_ENTITY_EGG = ITEMS.register("rainbow_pig_entity_egg", () -> new ForgeSpawnEggItem(GuideModEntities.RAINBOW_PIG_ENTITY, 0x1E51ED, 0x34BD27, new Item.Properties().tab(GlobalVariables.GUIDEMOD_TAB)));
 }

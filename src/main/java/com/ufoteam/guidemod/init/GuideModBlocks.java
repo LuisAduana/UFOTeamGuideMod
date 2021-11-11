@@ -18,6 +18,7 @@ public class GuideModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, GlobalVariables.MODID);
 
     public static final RegistryObject<Block> TITANIUM_BLOCK = registerBlock("titanium_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(8f)));
+    public static final RegistryObject<Block> TITANIUM_ORE = registerBlock("titanium_ore", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(8f)));
     public static final RegistryObject<Block> SKEPPY_FACE_BLOCK = registerBlock("skeppy_face_block", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.5F, 6.0F)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
