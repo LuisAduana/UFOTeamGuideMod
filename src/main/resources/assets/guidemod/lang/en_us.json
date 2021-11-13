@@ -10,5 +10,6 @@
   "block.guidemod.skeppy_face_block": "Skeppy face",
   "block.guidemod.titanium_block": "Titanium block",
   "block.guidemod.titanium_ore": "Titanium ore",
-  "entity.guidemod.rainbow_pig_entity": "Rainbow Pig"
+  "block.guidemod.speedy_block": "Speedy block",
+  "entity.guidemod.rainbow_pig_entity_egg": "Rainbow Pig"
 }
