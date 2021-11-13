@@ -10,8 +10,9 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
 public final class GuideModItems {
-    /** Normal Items */
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, GlobalVariables.MODID);
+
+    /** Normal Items */
     public static final RegistryObject<Item> RAINBOW_APPLE_ITEM = ITEMS.register("rainbow_apple_item", () -> new Item(new Item.Properties().tab(GlobalVariables.GUIDEMOD_TAB)));
     public static final RegistryObject<Item> TITANIUM_INGOT = ITEMS.register("titanium_ingot", () -> new Item(new Item.Properties().tab(GlobalVariables.GUIDEMOD_TAB)));
     public static final RegistryObject<Item> TITANIUM_NUGGET = ITEMS.register("titanium_nugget", () -> new Item(new Item.Properties().tab(GlobalVariables.GUIDEMOD_TAB)));
@@ -25,5 +26,5 @@ public final class GuideModItems {
             .food(new FoodProperties.Builder().nutrition(2).saturationMod(0.2f).build())));
 
     /** Entity Eggs items */
-    public static final RegistryObject<Item> RAINBOW_PIG_ENTITY = ITEMS.register("rainbow_pig_entity_egg", () -> new ForgeSpawnEggItem(GuideModEntities.RAINBOW_PIG_ENTITY, 0x1E51ED, 0x34BD27, new Item.Properties().tab(GlobalVariables.GUIDEMOD_TAB)));
+    public static final RegistryObject<Item> RAINBOW_PIG_ENTITY_EGG = ITEMS.register("rainbow_pig_entity_egg", () -> new ForgeSpawnEggItem(GuideModEntities.RAINBOW_PIG_ENTITY, 0x1E51ED, 0x34BD27, new Item.Properties().tab(GlobalVariables.GUIDEMOD_TAB)));
 }
