@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "guidemod:items/rainbow_apple_item"
+    "layer0": "guidemod:items/rainbow_apple"
   }
 }

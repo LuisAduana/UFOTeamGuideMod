@@ -1,6 +1,6 @@
 package com.ufoteam.guidemod.client.event;
 
-import com.ufoteam.guidemod.GlobalVariables;
+import com.ufoteam.guidemod.GlobalUtils;
 import com.ufoteam.guidemod.client.renderer.RainbowPigEntityRenderer;
 import com.ufoteam.guidemod.client.renderer.model.RainbowPigEntityModel;
 import com.ufoteam.guidemod.init.GuideModEntities;
@@ -10,7 +10,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
 
-@Mod.EventBusSubscriber(modid = GlobalVariables.MODID, bus = Bus.MOD, value = Dist.CLIENT)
+@Mod.EventBusSubscriber(modid = GlobalUtils.MODID, bus = Bus.MOD, value = Dist.CLIENT)
 public final class ClientModEvents {
 
     @SubscribeEvent
