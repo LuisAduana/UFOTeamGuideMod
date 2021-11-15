@@ -9,14 +9,12 @@ import net.minecraft.resources.ResourceLocation;
 
 public class RainbowPigEntityRenderer<Type extends RainbowPigEntity> extends MobRenderer<Type, RainbowPigEntityModel<Type>> {
 
-    private static final ResourceLocation TEXTURE = new ResourceLocation(GlobalUtils.MODID, "textures/entities/rainbow_pig_entity.png");
-
     public RainbowPigEntityRenderer(Context context) {
         super(context, new RainbowPigEntityModel<>(context.bakeLayer(RainbowPigEntityModel.LAYER_LOCATION)), 0.5f);
     }
 
     @Override
     public ResourceLocation getTextureLocation(Type entity) {
-        return TEXTURE;
+        return GlobalUtils.resourceLocation("textures/entities/rainbow_pig_entity.png");
     }
 }

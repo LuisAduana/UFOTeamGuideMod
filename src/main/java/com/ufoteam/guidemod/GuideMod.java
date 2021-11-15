@@ -18,8 +18,6 @@ public class GuideMod {
         GuideModBlocks.BLOCKS.register(bus);
         GuideModItems.ITEMS.register(bus);
         GuideModEntities.ENTITIES.register(bus);
-
-        MinecraftForge.EVENT_BUS.register(this);
     }
 
 }

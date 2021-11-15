@@ -23,8 +23,6 @@ import javax.annotation.Nullable;
 
 public class RainbowPigEntity extends Animal {
 
-    private static final ResourceLocation LOOT_TABLE = new ResourceLocation(GlobalUtils.MODID, "entities/rainbow_pig_entity");
-
     public RainbowPigEntity(EntityType<? extends Animal> entityType, Level level) {
         super(entityType, level);
     }
@@ -65,7 +63,7 @@ public class RainbowPigEntity extends Animal {
 
     @Override
     protected ResourceLocation getDefaultLootTable() {
-        return LOOT_TABLE;
+        return GlobalUtils.resourceLocation("entities/rainbow_pig_entity");
     }
 
     @Nullable
