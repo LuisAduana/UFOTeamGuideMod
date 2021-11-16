@@ -2,8 +2,9 @@ package com.ufoteam.guidemod.client.renderer.model;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
-import com.ufoteam.guidemod.GlobalVariables;
+import com.ufoteam.guidemod.GlobalUtils;
 import com.ufoteam.guidemod.custom.entities.RainbowPigEntity;
+import com.ufoteam.guidemod.init.GuideModNames;
 import net.minecraft.client.model.EntityModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;
 import net.minecraft.client.model.geom.ModelPart;
@@ -12,7 +13,7 @@ import net.minecraft.client.model.geom.builders.*;
 import net.minecraft.resources.ResourceLocation;
 
 public class RainbowPigEntityModel<Type extends RainbowPigEntity> extends EntityModel<Type> {
-	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(new ResourceLocation(GlobalVariables.MODID, "rainbow_pig_entity"), "main");
+	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(GlobalUtils.resourceLocation(GuideModNames.rainbowPigEntity), "main");
 	private final ModelPart body;
 
 	public RainbowPigEntityModel(ModelPart root) {

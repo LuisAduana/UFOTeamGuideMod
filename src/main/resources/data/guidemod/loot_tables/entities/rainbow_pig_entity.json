@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "guidemod:rainbow_apple_item",
+          "name": "guidemod:rainbow_apple",
           "functions": [
             {
               "function": "minecraft:set_count",

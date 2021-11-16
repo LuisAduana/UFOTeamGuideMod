@@ -1,6 +1,6 @@
 package com.ufoteam.guidemod.custom.entities;
 
-import com.ufoteam.guidemod.GlobalVariables;
+import com.ufoteam.guidemod.GlobalUtils;
 import com.ufoteam.guidemod.init.GuideModEntities;
 import com.ufoteam.guidemod.init.GuideModItems;
 import com.ufoteam.guidemod.init.GuideModSounds;
@@ -23,8 +23,6 @@ import javax.annotation.Nullable;
 
 public class RainbowPigEntity extends Animal {
 
-    private static final ResourceLocation LOOT_TABLE = new ResourceLocation(GlobalVariables.MODID, "entities/rainbow_pig_entity");
-
     public RainbowPigEntity(EntityType<? extends Animal> entityType, Level level) {
         super(entityType, level);
     }
@@ -34,7 +32,7 @@ public class RainbowPigEntity extends Animal {
         this.goalSelector.addGoal(0, new FloatGoal(this));
         this.goalSelector.addGoal(1, new PanicGoal(this, 1.25D));
         this.goalSelector.addGoal(3, new BreedGoal(this, 1.0D));
-        this.goalSelector.addGoal(4, new TemptGoal(this, 1.2D, Ingredient.of(GuideModItems.RAINBOW_APPLE_ITEM.get()), false));
+        this.goalSelector.addGoal(4, new TemptGoal(this, 1.2D, Ingredient.of(GuideModItems.RAINBOW_APPLE.get()), false));
         this.goalSelector.addGoal(5, new FollowParentGoal(this, 1.1D));
         this.goalSelector.addGoal(6, new WaterAvoidingRandomStrollGoal(this, 1.0D));
         this.goalSelector.addGoal(7, new LookAtPlayerGoal(this, Player.class, 6.0F));
@@ -65,7 +63,7 @@ public class RainbowPigEntity extends Animal {
 
     @Override
     protected ResourceLocation getDefaultLootTable() {
-        return LOOT_TABLE;
+        return GlobalUtils.resourceLocation("entities/rainbow_pig_entity");
     }
 
     @Nullable

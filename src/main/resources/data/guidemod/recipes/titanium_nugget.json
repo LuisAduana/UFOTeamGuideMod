@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "guidemod:titanium_ingot"
+    }
+  ],
+  "result": {
+    "item": "guidemod:titanium_nugget",
+    "count": 9
+  }
+}

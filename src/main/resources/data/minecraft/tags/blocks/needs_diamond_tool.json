@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "guidemod:skeppy_face_block",
     "guidemod:titanium_block",
     "guidemod:titanium_ore"
   ]

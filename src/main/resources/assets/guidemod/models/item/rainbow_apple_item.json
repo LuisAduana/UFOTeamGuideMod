@@ -1,6 +1,0 @@
-{
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "guidemod:items/rainbow_apple_item"
-  }
-}

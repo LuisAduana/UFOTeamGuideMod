@@ -1,7 +1,21 @@
 {
   "itemGroup.guidemod": "UFO GuideMod",
-  "item.guidemod.rainbow_apple_item": "Rainbow apple",
+  "item.guidemod.rainbow_apple": "Rainbow apple",
   "item.guidemod.rainbow_pig_entity_egg": "Spawn Rainbow Pig",
+  "item.guidemod.titanium_ingot": "Titanium ingot",
+  "item.guidemod.titanium_nugget": "Titanium nugget",
+  "item.guidemod.raw_titanium": "Raw titanium",
+  "item.guidemod.tomato": "Tomato",
+  "item.guidemod.smart_blow_torch": "Smart blow torch",
+
+  "block.guidemod.blockbench_block": "Blockbench",
   "block.guidemod.skeppy_face_block": "Skeppy face",
-  "entity.guidemod.rainbow_pig_entity": "Rainbow Pig"
+  "block.guidemod.titanium_block": "Titanium block",
+  "block.guidemod.titanium_ore": "Titanium ore",
+  "block.guidemod.speedy_block": "Speedy block",
+
+  "entity.guidemod.rainbow_pig_entity_egg": "Rainbow Pig",
+
+  "tooltip.guidemod.blowtorch_shift": "You are \u00A7epressing\u00A7r Shift key",
+  "tooltip.guidemod.blowtorch": "This is a tooltip"
 }
