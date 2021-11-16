@@ -16,6 +16,7 @@ public class GuideMod {
 
         GuideModSounds.SOUNDS.register(bus);
         GuideModBlocks.BLOCKS.register(bus);
+        GuideModBlocks.BLOCK_ENTITIES.register(bus);
         GuideModItems.ITEMS.register(bus);
         GuideModEntities.ENTITIES.register(bus);
     }

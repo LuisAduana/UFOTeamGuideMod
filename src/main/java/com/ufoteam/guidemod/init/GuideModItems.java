@@ -34,6 +34,8 @@ public final class GuideModItems {
     public static final RegistryObject<Item> TITANIUM_BLOCK_ITEM = ITEMS.register(GuideModNames.titaniumBlock, () -> new BlockItem(GuideModBlocks.TITANIUM_BLOCK.get(), new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
     public static final RegistryObject<Item> TITANIUM_ORE_BLOCK = ITEMS.register(GuideModNames.titaniumOre, () -> new BlockItem(GuideModBlocks.TITANIUM_ORE.get(), new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
 
+    public static final RegistryObject<Item> SIMPLE_BLOCK_ITEM = ITEMS.register("blockbench_block", () -> new BlockItem(GuideModBlocks.SIMPLE_BLOCK.get(), new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
+
     /** Entity Eggs items */
     public static final RegistryObject<Item> RAINBOW_PIG_ENTITY = ITEMS.register(GuideModNames.rainbowPigEntityEgg, () -> new ForgeSpawnEggItem(GuideModEntities.RAINBOW_PIG_ENTITY, 0x1E51ED, 0x34BD27, new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
 }
