@@ -12,7 +12,7 @@ import javax.annotation.Nullable;
 
 public class SimpleBlock extends BaseEntityBlock {
 
-    protected static final VoxelShape SHAPE = Block.box(0, 0, 3, 10, 5, 10);
+    protected static final VoxelShape SHAPE = Block.box(6, 0, 6, 10, 16, 10);
 
     public SimpleBlock(Properties properties) {
         super(properties);
@@ -32,4 +32,5 @@ public class SimpleBlock extends BaseEntityBlock {
     public RenderShape getRenderShape(BlockState state) {
         return RenderShape.MODEL;
     }
+    
 }

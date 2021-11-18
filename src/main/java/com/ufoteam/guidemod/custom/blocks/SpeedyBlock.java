@@ -42,4 +42,5 @@ public class SpeedyBlock extends Block {
         }
         super.stepOn(level, post, state, entity);
     }
+
 }

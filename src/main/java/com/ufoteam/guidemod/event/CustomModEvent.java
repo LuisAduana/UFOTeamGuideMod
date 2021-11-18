@@ -15,4 +15,5 @@ public class CustomModEvent {
     public static void registerAttributes(EntityAttributeCreationEvent event) {
         event.put(GuideModEntities.RAINBOW_PIG_ENTITY.get(), RainbowPigEntity.createAttributes().build());
     }
+
 }

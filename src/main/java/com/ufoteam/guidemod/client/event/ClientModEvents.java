@@ -22,4 +22,5 @@ public final class ClientModEvents {
     public static void registerRenderers(EntityRenderersEvent.RegisterRenderers event) {
         event.registerEntityRenderer(GuideModEntities.RAINBOW_PIG_ENTITY.get(), RainbowPigEntityRenderer::new);
     }
+
 }

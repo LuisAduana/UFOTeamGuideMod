@@ -13,6 +13,7 @@ import net.minecraft.client.model.geom.builders.*;
 import net.minecraft.resources.ResourceLocation;
 
 public class RainbowPigEntityModel<Type extends RainbowPigEntity> extends EntityModel<Type> {
+
 	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(GlobalUtils.resourceLocation(GuideModNames.rainbowPigEntity), "main");
 	private final ModelPart body;
 
@@ -47,6 +48,5 @@ public class RainbowPigEntityModel<Type extends RainbowPigEntity> extends Entity
 	public void renderToBuffer(PoseStack poseStack, VertexConsumer buffer, int packedLight, int packedOverlay, float red, float green, float blue, float alpha) {
 		this.body.render(poseStack, buffer, packedLight, packedOverlay);
 	}
-
 
 }

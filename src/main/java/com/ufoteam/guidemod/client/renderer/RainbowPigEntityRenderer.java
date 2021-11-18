@@ -17,4 +17,5 @@ public class RainbowPigEntityRenderer<Type extends RainbowPigEntity> extends Mob
     public ResourceLocation getTextureLocation(Type entity) {
         return GlobalUtils.resourceLocation("textures/entities/rainbow_pig_entity.png");
     }
+
 }

@@ -1,13 +1,17 @@
 package com.ufoteam.guidemod.init;
 
 public class GuideModNames {
-    /** Blocks */
+    /**
+     * Blocks
+     */
     public static final String skeppyFaceBlock = "skeppy_face_block";
     public static final String titaniumBlock = "titanium_block";
     public static final String speedyBlock = "speedy_block";
     public static final String titaniumOre = "titanium_ore";
 
-    /** Items */
+    /**
+     * Items
+     */
     public static final String titaniumIngot = "titanium_ingot";
     public static final String titaniumNugget = "titanium_nugget";
     public static final String rawTitanium = "raw_titanium";
@@ -15,10 +19,14 @@ public class GuideModNames {
     public static final String rainbowApple = "rainbow_apple";
     public static final String tomato = "tomato";
 
-    /** Eggs */
+    /**
+     * Eggs
+     */
     public static final String rainbowPigEntityEgg = "rainbow_pig_entity_egg";
 
-    /** Sounds */
+    /**
+     * Sounds
+     */
     public static final String rainbowPigEntity = "rainbow_pig_entity";
     public static final String rainbowPigEntityAmbient = createAmbientSoundName(rainbowPigEntity);
     public static final String rainbowPigEntityHurt = createHurtSoundName(rainbowPigEntity);
