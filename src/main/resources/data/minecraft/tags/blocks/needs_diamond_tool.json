@@ -2,6 +2,11 @@
   "replace": false,
   "values": [
     "guidemod:titanium_block",
+    "guidemod:titanium_fence",
+    "guidemod:titanium_fence_gate",
+    "guidemod:titanium_stairs",
+    "guidemod:titanium_slab",
+    "guidemod:titanium_wall",
     "guidemod:titanium_ore"
   ]
 }

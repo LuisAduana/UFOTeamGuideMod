@@ -40,6 +40,12 @@ public final class GuideModItems {
     public static final RegistryObject<Item> SPEEDY_BLOCK_ITEM = ITEMS.register(GuideModNames.speedyBlock, () -> new BlockItem(GuideModBlocks.SPEEDY_BLOCK.get(), new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
     public static final RegistryObject<Item> TITANIUM_BLOCK_ITEM = ITEMS.register(GuideModNames.titaniumBlock, () -> new BlockItem(GuideModBlocks.TITANIUM_BLOCK.get(), new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
     public static final RegistryObject<Item> TITANIUM_ORE_BLOCK = ITEMS.register(GuideModNames.titaniumOre, () -> new BlockItem(GuideModBlocks.TITANIUM_ORE.get(), new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
+    public static final RegistryObject<Item> TITANIUM_STARIS_ITEM = ITEMS.register("titanium_stairs", () -> new BlockItem(GuideModBlocks.TITANIUM_STAIRS.get(), new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
+    public static final RegistryObject<Item> TITANIUM_FENCE_ITEM = ITEMS.register("titanium_fence", () -> new BlockItem(GuideModBlocks.TITANIUM_FENCE.get(), new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
+    public static final RegistryObject<Item> TITANIUM_FENCE_GATE_ITEM = ITEMS.register("titanium_fence_gate", () -> new BlockItem(GuideModBlocks.TITANIUM_FENCE_GATE.get(), new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
+    public static final RegistryObject<Item> TITANIUM_WALL_ITEM = ITEMS.register("titanium_wall", () -> new BlockItem(GuideModBlocks.TITANIUM_WALL.get(), new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
+    public static final RegistryObject<Item> TITANIUM_SLAB_ITEM = ITEMS.register("titanium_slab", () -> new BlockItem(GuideModBlocks.TITANIUM_SLAB.get(), new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
+
 
     public static final RegistryObject<Item> SIMPLE_BLOCK_ITEM = ITEMS.register("blockbench_block", () -> new BlockItem(GuideModBlocks.BLOCKBENCH_BLOCK.get(), new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
 
