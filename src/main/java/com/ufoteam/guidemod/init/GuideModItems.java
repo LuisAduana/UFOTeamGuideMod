@@ -26,6 +26,12 @@ public final class GuideModItems {
     public static final RegistryObject<Item> SMART_BLOW_TORCH = ITEMS.register(GuideModNames.smartBlowTorch, () -> new SmartBlowtorchItem(new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
 
     /**
+     * CropsItems
+     */
+    public static final RegistryObject<Item> OATS = ITEMS.register("oats", () -> new BlockItem(GuideModBlocks.OATS_CROP.get(), new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)
+            .food(new FoodProperties.Builder().nutrition(2).saturationMod(0.2f).build())));
+
+    /**
      * Food items
      */
     public static final RegistryObject<Item> RAINBOW_APPLE = ITEMS.register(GuideModNames.rainbowApple, () -> new Item(new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)

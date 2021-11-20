@@ -1,7 +1,11 @@
 package com.ufoteam.guidemod;
 
 import com.ufoteam.guidemod.init.*;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 @Mod(GlobalUtils.MODID)
@@ -15,6 +19,16 @@ public class GuideMod {
         GuideModBlockEntities.BLOCK_ENTITIES.register(bus);
         GuideModItems.ITEMS.register(bus);
         GuideModEntities.ENTITIES.register(bus);
+
+        bus.addListener(this::doClientStuff);
+
+        MinecraftForge.EVENT_BUS.register(this);
+    }
+
+    private void doClientStuff(final FMLClientSetupEvent event) {
+        event.enqueueWork(() -> {
+            ItemBlockRenderTypes.setRenderLayer(GuideModBlocks.OATS_CROP.get(), RenderType.cutout());
+        });
     }
 
 }

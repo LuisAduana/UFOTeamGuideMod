@@ -1,6 +1,7 @@
 package com.ufoteam.guidemod.init;
 
 import com.ufoteam.guidemod.GlobalUtils;
+import com.ufoteam.guidemod.custom.blocks.OatsBlock;
 import com.ufoteam.guidemod.custom.blocks.SimpleBlock;
 import com.ufoteam.guidemod.custom.blocks.SpeedyBlock;
 import net.minecraft.world.level.block.*;
@@ -33,6 +34,11 @@ public class GuideModBlocks {
     public static final RegistryObject<Block> TITANIUM_FENCE_GATE = BLOCKS.register("titanium_fence_gate", () -> new FenceGateBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(2f, 6f)));
     public static final RegistryObject<Block> TITANIUM_WALL = BLOCKS.register("titanium_wall", () -> new WallBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(2f, 6f)));
     public static final RegistryObject<Block> TITANIUM_SLAB = BLOCKS.register("titanium_slab", () -> new SlabBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(2f, 6f)));
+
+    /**
+     * Crops
+     */
+    public static final RegistryObject<Block> OATS_CROP = BLOCKS.register("oats_crop", () -> new OatsBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
 
     /**
      * Ores
