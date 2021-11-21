@@ -1,6 +1,7 @@
 package com.ufoteam.guidemod.init;
 
 public class GuideModNames {
+
     /**
      * Blocks
      */
@@ -8,6 +9,16 @@ public class GuideModNames {
     public static final String titaniumBlock = "titanium_block";
     public static final String speedyBlock = "speedy_block";
     public static final String titaniumOre = "titanium_ore";
+    public static final String titaniumStairs = "titanium_stairs";
+    public static final String titaniumFence = "titanium_fence";
+    public static final String titaniumFenceGate = "titanium_fence_gate";
+    public static final String titaniumWall = "titanium_wall";
+    public static final String titaniumSlab = "titanium_slab";
+
+    /**
+     * Custom blocks
+     */
+    public static final String craftingMineralsTable = "crafting_minerals_table";
 
     /**
      * Items
@@ -18,6 +29,12 @@ public class GuideModNames {
     public static final String smartBlowTorch = "smart_blow_torch";
     public static final String rainbowApple = "rainbow_apple";
     public static final String tomato = "tomato";
+    public static final String oats = "oats";
+
+    /**
+     * Crops
+     */
+    public static final String oatsCrop = "oats_crop";
 
     /**
      * Eggs

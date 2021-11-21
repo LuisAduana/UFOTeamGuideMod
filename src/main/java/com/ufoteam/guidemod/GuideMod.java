@@ -20,15 +20,9 @@ public class GuideMod {
         GuideModItems.ITEMS.register(bus);
         GuideModEntities.ENTITIES.register(bus);
 
-        bus.addListener(this::doClientStuff);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
 
-    private void doClientStuff(final FMLClientSetupEvent event) {
-        event.enqueueWork(() -> {
-            ItemBlockRenderTypes.setRenderLayer(GuideModBlocks.OATS_CROP.get(), RenderType.cutout());
-        });
-    }
 
 }

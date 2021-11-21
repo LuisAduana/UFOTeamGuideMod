@@ -42,7 +42,7 @@ public class OreGeneration {
     }
 
     private static <Config extends FeatureConfiguration> ConfiguredFeature<Config, ?> register(String name, ConfiguredFeature<Config, ?> configuredFeature) {
-        return Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, new ResourceLocation("guidemod", name), configuredFeature);
+        return Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, GlobalUtils.resourceLocation(name), configuredFeature);
     }
 
     @Mod.EventBusSubscriber(modid = GlobalUtils.MODID, bus = Mod.EventBusSubscriber.Bus.FORGE)

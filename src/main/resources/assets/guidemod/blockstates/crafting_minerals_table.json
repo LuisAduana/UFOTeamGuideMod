@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "guidemod:block/crafting_minerals_table",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "guidemod:block/crafting_minerals_table"
+    },
+    "facing=south": {
+      "model": "guidemod:block/crafting_minerals_table",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "guidemod:block/crafting_minerals_table",
+      "y": 270
+    }
+  }
+}
