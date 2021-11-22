@@ -2,15 +2,18 @@ package com.ufoteam.guidemod.init;
 
 import com.ufoteam.guidemod.GlobalUtils;
 import com.ufoteam.guidemod.custom.items.SmartBlowtorchItem;
+import com.ufoteam.guidemod.init.customs.GuideModTiers;
+import com.ufoteam.guidemod.init.customs.GuideModeArmorMaterials;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.fmllegacy.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
 public final class GuideModItems {
+
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, GlobalUtils.MODID);
 
     /**
@@ -52,7 +55,31 @@ public final class GuideModItems {
     public static final RegistryObject<Item> TITANIUM_WALL_ITEM = ITEMS.register(GuideModNames.titaniumWall, () -> new BlockItem(GuideModBlocks.TITANIUM_WALL.get(), new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
     public static final RegistryObject<Item> TITANIUM_SLAB_ITEM = ITEMS.register(GuideModNames.titaniumSlab, () -> new BlockItem(GuideModBlocks.TITANIUM_SLAB.get(), new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
 
+    /**
+     * Custom blocks
+     */
     public static final RegistryObject<Item> CRAFTING_MINERALS_TABLE_ITEM = ITEMS.register(GuideModNames.craftingMineralsTable, () -> new BlockItem(GuideModBlocks.CRAFTING_MINERALS_TABLE.get(), new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
+
+    /**
+     * Weapons
+     */
+    public static final RegistryObject<Item> TITANIUM_SWORD = ITEMS.register(GuideModNames.titaniumSword, () -> new SwordItem(GuideModTiers.TITANIUM, 3, -2.4f, new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
+
+    /**
+     * Armors
+     */
+    public static final RegistryObject<Item> TITANIUM_HELMET = ITEMS.register(GuideModNames.titaniumHelmet, () -> new ArmorItem(GuideModeArmorMaterials.TITANIUM, EquipmentSlot.HEAD, new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
+    public static final RegistryObject<Item> TITANIUM_CHESTPLATE = ITEMS.register(GuideModNames.titaniumChestplate, () -> new ArmorItem(GuideModeArmorMaterials.TITANIUM, EquipmentSlot.CHEST, new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
+    public static final RegistryObject<Item> TITANIUM_LEGGINGS = ITEMS.register(GuideModNames.titaniumLeggings, () -> new ArmorItem(GuideModeArmorMaterials.TITANIUM, EquipmentSlot.LEGS, new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
+    public static final RegistryObject<Item> TITANIUM_BOOTS = ITEMS.register(GuideModNames.titaniumBoots, () -> new ArmorItem(GuideModeArmorMaterials.TITANIUM, EquipmentSlot.FEET, new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
+
+    /**
+     * Tools
+     */
+    public static final RegistryObject<Item> TITANIUM_PICKAXE = ITEMS.register(GuideModNames.titaniumPickaxe, () -> new PickaxeItem(GuideModTiers.TITANIUM, 1, 2.8F, new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
+    public static final RegistryObject<Item> TITANIUM_AXE = ITEMS.register(GuideModNames.titaniumAxe, () -> new AxeItem(GuideModTiers.TITANIUM, 6.0F, -3.1F, new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
+    public static final RegistryObject<Item> TITANIUM_SHOVEL = ITEMS.register(GuideModNames.titaniumShovel, () -> new ShovelItem(GuideModTiers.TITANIUM, 1.5F, -3.0F, new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
+    public static final RegistryObject<Item> TITANIUM_HOE = ITEMS.register(GuideModNames.titaniumHoe, () -> new HoeItem(GuideModTiers.TITANIUM, 0, -3.0F, new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
 
     /**
      * Entity Eggs items

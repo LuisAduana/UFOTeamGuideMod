@@ -32,6 +32,27 @@ public class GuideModNames {
     public static final String oats = "oats";
 
     /**
+     * Weapons
+     */
+    public static final String titaniumSword = "titanium_sword";
+
+    /**
+     * Tools
+     */
+    public static final String titaniumPickaxe = "titanium_pickaxe";
+    public static final String titaniumAxe = "titanium_axe";
+    public static final String titaniumShovel = "titanium_shovel";
+    public static final String titaniumHoe = "titanium_hoe";
+
+    /**
+     * Armors
+     */
+    public static final String titaniumHelmet = "titanium_helmet";
+    public static final String titaniumChestplate = "titanium_chestplate";
+    public static final String titaniumLeggings = "titanium_leggings";
+    public static final String titaniumBoots = "titanium_boots";
+
+    /**
      * Crops
      */
     public static final String oatsCrop = "oats_crop";
@@ -48,17 +69,21 @@ public class GuideModNames {
     public static final String rainbowPigEntityAmbient = createAmbientSoundName(rainbowPigEntity);
     public static final String rainbowPigEntityHurt = createHurtSoundName(rainbowPigEntity);
     public static final String rainbowPigEntityDeath = createDeathSoundName(rainbowPigEntity);
+    public static final String armorEquipTitanium = "equip_titanium";
+    public static final String armorEquipTitaniumSound = createArmorSoundName(armorEquipTitanium);
 
 
+    /**
+     * Sounds methods utils
+     */
     private static String createAmbientSoundName(String name) {
         return "entity."+name+".ambient";
     }
-
     private static String createHurtSoundName(String name) {
         return "entity."+name+".hurt";
     }
-
     private static String createDeathSoundName(String name) {
         return "entity."+name+".death";
     }
+    private static String createArmorSoundName(String name) { return "item.armor." + name; }
 }

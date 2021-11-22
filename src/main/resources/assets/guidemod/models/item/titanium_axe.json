@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "guidemod:items/titanium_axe"
+  }
+}

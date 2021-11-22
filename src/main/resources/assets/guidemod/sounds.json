@@ -13,5 +13,10 @@
     "sounds": [
       "guidemod:rainbow_pig_entity_death"
     ]
+  },
+  "item.armor.equip_titanium": {
+    "sounds": [
+      "guidemod:equip_titanium"
+    ]
   }
 }
