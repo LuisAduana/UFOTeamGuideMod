@@ -1,8 +1,9 @@
 package com.ufoteam.guidemod.init.customs;
 
+import com.ufoteam.guidemod.GlobalUtils;
 import com.ufoteam.guidemod.init.GuideModItems;
+import com.ufoteam.guidemod.init.GuideModSounds;
 import net.minecraft.sounds.SoundEvent;
-import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -10,7 +11,7 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum GuideModeArmorMaterials implements ArmorMaterial {
-    TITANIUM("guidemod:titanium", 5, new int[]{1, 2, 3, 1}, 15, SoundEvents.ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
+    TITANIUM(GlobalUtils.MODID + ":titanium", 5, new int[]{1, 2, 3, 1}, 15, () -> GuideModSounds.ARMOR_EQUIP_TITANIUM.get(), 0.0F, 0.0F, () -> {
         return Ingredient.of(GuideModItems.TITANIUM_INGOT.get());
     });
 
@@ -19,12 +20,12 @@ public enum GuideModeArmorMaterials implements ArmorMaterial {
     private final int durabilityMultiplier;
     private final int[] slotProtections;
     private final int enchantmentValue;
-    private final SoundEvent sound;
+    private final Supplier<SoundEvent> sound;
     private final float toughness;
     private final float knockbackResistance;
     private final Supplier<Ingredient> repairIngredient;
 
-    GuideModeArmorMaterials(String name, int durabilityMultiplier, int[] slotProtections, int enchantmentValue, SoundEvent sound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient) {
+    GuideModeArmorMaterials(String name, int durabilityMultiplier, int[] slotProtections, int enchantmentValue, Supplier<SoundEvent> sound, float toughness, float knockbackResistance, Supplier<Ingredient> repairIngredient) {
         this.name = name;
         this.durabilityMultiplier = durabilityMultiplier;
         this.slotProtections = slotProtections;
@@ -52,7 +53,7 @@ public enum GuideModeArmorMaterials implements ArmorMaterial {
 
     @Override
     public SoundEvent getEquipSound() {
-        return this.sound;
+        return this.sound.get();
     }
 
     @Override
