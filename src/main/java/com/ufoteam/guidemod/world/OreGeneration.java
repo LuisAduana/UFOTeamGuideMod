@@ -1,10 +1,9 @@
 package com.ufoteam.guidemod.world;
 
-import com.ufoteam.guidemod.GlobalUtils;
+import com.ufoteam.guidemod.utils.GlobalUtils;
 import com.ufoteam.guidemod.init.GuideModBlocks;
 import net.minecraft.core.Registry;
 import net.minecraft.data.BuiltinRegistries;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.levelgen.GenerationStep;
 import net.minecraft.world.level.levelgen.VerticalAnchor;

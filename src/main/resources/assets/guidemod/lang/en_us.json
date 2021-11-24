@@ -1,6 +1,8 @@
 {
   "itemGroup.guidemod": "UFO GuideMod",
   "item.guidemod.rainbow_apple": "Rainbow apple",
+  "tooltip.item.guidemod.rainbow_apple": "Press §e SHIFT §e for more information",
+  "tooltip_shift.item.guidemod.rainbow_apple": "This is an amazing APPLE!",
   "item.guidemod.rainbow_pig_entity_egg": "Spawn Rainbow Pig",
   "item.guidemod.titanium_ingot": "Titanium ingot",
   "item.guidemod.titanium_nugget": "Titanium nugget",

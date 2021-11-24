@@ -1,6 +1,6 @@
 package com.ufoteam.guidemod.init;
 
-import com.ufoteam.guidemod.GlobalUtils;
+import com.ufoteam.guidemod.utils.GlobalUtils;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;

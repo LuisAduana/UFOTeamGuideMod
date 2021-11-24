@@ -1,6 +1,6 @@
 package com.ufoteam.guidemod.init;
 
-import com.ufoteam.guidemod.GlobalUtils;
+import com.ufoteam.guidemod.utils.GlobalUtils;
 import com.ufoteam.guidemod.custom.blocks.CraftingMineralsTable;
 import com.ufoteam.guidemod.custom.blocks.OatsBlock;
 import com.ufoteam.guidemod.custom.blocks.SpeedyBlock;

@@ -1,6 +1,7 @@
 package com.ufoteam.guidemod.init;
 
-import com.ufoteam.guidemod.GlobalUtils;
+import com.ufoteam.guidemod.custom.items.RainbowApple;
+import com.ufoteam.guidemod.utils.GlobalUtils;
 import com.ufoteam.guidemod.custom.items.SmartBlowtorchItem;
 import com.ufoteam.guidemod.init.customs.GuideModTiers;
 import com.ufoteam.guidemod.init.customs.GuideModeArmorMaterials;
@@ -37,8 +38,7 @@ public final class GuideModItems {
     /**
      * Food items
      */
-    public static final RegistryObject<Item> RAINBOW_APPLE = ITEMS.register(GuideModNames.rainbowApple, () -> new Item(new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)
-            .food(new FoodProperties.Builder().nutrition(2).saturationMod(0.2f).build())));
+    public static final RegistryObject<Item> RAINBOW_APPLE = ITEMS.register(GuideModNames.rainbowApple, () -> new RainbowApple());
     public static final RegistryObject<Item> TOMATO = ITEMS.register(GuideModNames.tomato, () -> new Item(new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)
             .food(new FoodProperties.Builder().nutrition(2).saturationMod(0.2f).build())));
 

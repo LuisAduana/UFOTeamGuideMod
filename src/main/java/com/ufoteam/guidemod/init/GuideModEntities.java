@@ -1,6 +1,6 @@
 package com.ufoteam.guidemod.init;
 
-import com.ufoteam.guidemod.GlobalUtils;
+import com.ufoteam.guidemod.utils.GlobalUtils;
 import com.ufoteam.guidemod.custom.entities.RainbowPigEntity;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;

@@ -1,7 +1,7 @@
 package com.ufoteam.guidemod.client.renderer;
 
 import com.ufoteam.guidemod.client.renderer.model.RainbowPigEntityModel;
-import com.ufoteam.guidemod.GlobalUtils;
+import com.ufoteam.guidemod.utils.GlobalUtils;
 import com.ufoteam.guidemod.custom.entities.RainbowPigEntity;
 import net.minecraft.client.renderer.entity.EntityRendererProvider.Context;
 import net.minecraft.client.renderer.entity.MobRenderer;

@@ -1,6 +1,6 @@
 package com.ufoteam.guidemod.init.customs;
 
-import com.ufoteam.guidemod.GlobalUtils;
+import com.ufoteam.guidemod.utils.GlobalUtils;
 import com.ufoteam.guidemod.init.GuideModItems;
 import com.ufoteam.guidemod.init.GuideModSounds;
 import net.minecraft.sounds.SoundEvent;

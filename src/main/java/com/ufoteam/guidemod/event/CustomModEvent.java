@@ -1,6 +1,6 @@
 package com.ufoteam.guidemod.event;
 
-import com.ufoteam.guidemod.GlobalUtils;
+import com.ufoteam.guidemod.utils.GlobalUtils;
 import com.ufoteam.guidemod.custom.entities.RainbowPigEntity;
 import com.ufoteam.guidemod.init.GuideModEntities;
 import com.ufoteam.guidemod.world.OreGeneration;

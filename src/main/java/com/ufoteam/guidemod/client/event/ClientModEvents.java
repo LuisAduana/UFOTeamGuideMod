@@ -1,6 +1,6 @@
 package com.ufoteam.guidemod.client.event;
 
-import com.ufoteam.guidemod.GlobalUtils;
+import com.ufoteam.guidemod.utils.GlobalUtils;
 import com.ufoteam.guidemod.client.renderer.RainbowPigEntityRenderer;
 import com.ufoteam.guidemod.client.renderer.model.RainbowPigEntityModel;
 import com.ufoteam.guidemod.init.GuideModBlocks;

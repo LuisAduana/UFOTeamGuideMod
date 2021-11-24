@@ -1,6 +1,6 @@
 package com.ufoteam.guidemod.init;
 
-import com.ufoteam.guidemod.GlobalUtils;
+import com.ufoteam.guidemod.utils.GlobalUtils;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraftforge.fmllegacy.RegistryObject;

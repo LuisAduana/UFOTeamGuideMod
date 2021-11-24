@@ -1,6 +1,6 @@
 package com.ufoteam.guidemod.custom.entities;
 
-import com.ufoteam.guidemod.GlobalUtils;
+import com.ufoteam.guidemod.utils.GlobalUtils;
 import com.ufoteam.guidemod.init.GuideModEntities;
 import com.ufoteam.guidemod.init.GuideModItems;
 import com.ufoteam.guidemod.init.GuideModSounds;
