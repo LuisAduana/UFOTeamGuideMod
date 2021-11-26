@@ -32,6 +32,9 @@ public final class ClientModEvents {
         event.enqueueWork(() -> {
             ItemBlockRenderTypes.setRenderLayer(GuideModBlocks.OATS_CROP.get(), RenderType.cutout());
             ItemBlockRenderTypes.setRenderLayer(GuideModBlocks.CRAFTING_MINERALS_TABLE.get(), RenderType.cutout());
+
+            ItemBlockRenderTypes.setRenderLayer(GuideModBlocks.TITANIUM_DOOR.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(GuideModBlocks.TITANIUM_TRAPDOOR.get(), RenderType.cutout());
         });
     }
 

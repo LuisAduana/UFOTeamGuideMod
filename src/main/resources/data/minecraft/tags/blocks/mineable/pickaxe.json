@@ -8,6 +8,10 @@
     "guidemod:titanium_stairs",
     "guidemod:titanium_slab",
     "guidemod:titanium_wall",
-    "guidemod:titanium_ore"
+    "guidemod:titanium_ore",
+    "guidemod:titanium_door",
+    "guidemod:titanium_button",
+    "guidemod:titanium_pressure_plate",
+    "guidemod:titanium_trapdoor"
   ]
 }

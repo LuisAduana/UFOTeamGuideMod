@@ -20,6 +20,7 @@
   "item.guidemod.titanium_leggings": "Titanium Leggings",
   "item.guidemod.titanium_boots": "Titanium Boots",
 
+
   "block.guidemod.crafting_minerals_table": "Crafting minerals table",
   "block.guidemod.skeppy_face_block": "Skeppy face",
   "block.guidemod.titanium_ore": "Titanium ore",
@@ -30,6 +31,10 @@
   "block.guidemod.titanium_fence_gate": "Titanium fence gate",
   "block.guidemod.titanium_wall": "Titanium wall",
   "block.guidemod.titanium_slab": "Titanium slab",
+  "block.guidemod.titanium_door": "Titanium door",
+  "block.guidemod.titanium_trapdoor": "Titanium trapdoor",
+  "block.guidemod.titanium_button": "Titanium button",
+  "block.guidemod.titanium_pressure_plate": "Titanium pressure plate",
   "block.guidemod.oats_crop": "Oats crop",
 
   "entity.guidemod.rainbow_pig_entity_egg": "Rainbow Pig",

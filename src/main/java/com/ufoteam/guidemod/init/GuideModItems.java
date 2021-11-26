@@ -8,6 +8,9 @@ import com.ufoteam.guidemod.init.customs.GuideModeArmorMaterials;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
+import net.minecraft.world.level.block.*;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.Material;
 import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.fmllegacy.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -54,6 +57,10 @@ public final class GuideModItems {
     public static final RegistryObject<Item> TITANIUM_FENCE_GATE_ITEM = ITEMS.register(GuideModNames.titaniumFenceGate, () -> new BlockItem(GuideModBlocks.TITANIUM_FENCE_GATE.get(), new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
     public static final RegistryObject<Item> TITANIUM_WALL_ITEM = ITEMS.register(GuideModNames.titaniumWall, () -> new BlockItem(GuideModBlocks.TITANIUM_WALL.get(), new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
     public static final RegistryObject<Item> TITANIUM_SLAB_ITEM = ITEMS.register(GuideModNames.titaniumSlab, () -> new BlockItem(GuideModBlocks.TITANIUM_SLAB.get(), new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
+    public static final RegistryObject<Item> TITANIUM_DOOR_ITEM = ITEMS.register(GuideModNames.titaniumDoor, () -> new BlockItem(GuideModBlocks.TITANIUM_DOOR.get(), new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
+    public static final RegistryObject<Item> TITANIUM_BUTTON_ITEM = ITEMS.register(GuideModNames.titaniumButton, () -> new BlockItem(GuideModBlocks.TITANIUM_BUTTON.get(), new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
+    public static final RegistryObject<Item> TITANIUM_PRESSURE_PLATE_ITEM = ITEMS.register(GuideModNames.titaniumPressurePlate, () -> new BlockItem(GuideModBlocks.TITANIUM_PRESSURE_PLATE.get(), new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
+    public static final RegistryObject<Item> TITANIUM_TRAPDOOR_ITEM = ITEMS.register(GuideModNames.titaniumTrapdoor, () -> new BlockItem(GuideModBlocks.TITANIUM_TRAPDOOR.get(), new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
 
     /**
      * Custom blocks

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top_rh",
+  "textures": {
+    "top": "guidemod:blocks/titanium_door_top",
+    "bottom": "guidemod:blocks/titanium_door_bottom"
+  }
+}

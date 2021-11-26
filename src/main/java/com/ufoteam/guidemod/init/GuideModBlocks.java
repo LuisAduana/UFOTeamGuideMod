@@ -27,7 +27,7 @@ public class GuideModBlocks {
     public static final RegistryObject<Block> CRAFTING_MINERALS_TABLE = BLOCKS.register(GuideModNames.craftingMineralsTable, () -> new CraftingMineralsTable(BlockBehaviour.Properties.of(Material.METAL).strength(0.2f)));
 
     /**
-     * Titanium block
+     * Titanium
      */
     public static final RegistryObject<Block> TITANIUM_BLOCK = BLOCKS.register(GuideModNames.titaniumBlock, () -> new Block(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(2f, 6f)));
     public static final RegistryObject<Block> TITANIUM_STAIRS = BLOCKS.register(GuideModNames.titaniumStairs, () -> new StairBlock(() -> TITANIUM_BLOCK.get().defaultBlockState(), BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(2.f, 6f)));
@@ -35,6 +35,10 @@ public class GuideModBlocks {
     public static final RegistryObject<Block> TITANIUM_FENCE_GATE = BLOCKS.register(GuideModNames.titaniumFenceGate, () -> new FenceGateBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(2f, 6f)));
     public static final RegistryObject<Block> TITANIUM_WALL = BLOCKS.register(GuideModNames.titaniumWall, () -> new WallBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(2f, 6f)));
     public static final RegistryObject<Block> TITANIUM_SLAB = BLOCKS.register(GuideModNames.titaniumSlab, () -> new SlabBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(2f, 6f)));
+    public static final RegistryObject<Block> TITANIUM_DOOR = BLOCKS.register(GuideModNames.titaniumDoor, () -> new DoorBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(2f, 6f).noOcclusion()));
+    public static final RegistryObject<Block> TITANIUM_BUTTON = BLOCKS.register(GuideModNames.titaniumButton, () -> new StoneButtonBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(2f, 6f)));
+    public static final RegistryObject<Block> TITANIUM_PRESSURE_PLATE = BLOCKS.register(GuideModNames.titaniumPressurePlate, () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(2f, 6f)));
+    public static final RegistryObject<Block> TITANIUM_TRAPDOOR = BLOCKS.register(GuideModNames.titaniumTrapdoor, () -> new TrapDoorBlock(BlockBehaviour.Properties.of(Material.METAL).requiresCorrectToolForDrops().strength(2f, 6f).noOcclusion()));
 
     /**
      * Crops

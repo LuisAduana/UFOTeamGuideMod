@@ -14,6 +14,10 @@ public class GuideModNames {
     public static final String titaniumFenceGate = "titanium_fence_gate";
     public static final String titaniumWall = "titanium_wall";
     public static final String titaniumSlab = "titanium_slab";
+    public static final String titaniumDoor = "titanium_door";
+    public static final String titaniumButton = "titanium_button";
+    public static final String titaniumPressurePlate = "titanium_pressure_plate";
+    public static final String titaniumTrapdoor = "titanium_trapdoor";
 
     /**
      * Custom blocks
