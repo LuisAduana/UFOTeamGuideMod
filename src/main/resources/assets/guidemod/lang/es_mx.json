@@ -1,0 +1,21 @@
+{
+  "itemGroup.guidemod": "UFO GuideMod",
+  "item.guidemod.rainbow_apple": "Manzana arcoiris",
+  "item.guidemod.rainbow_pig_entity_egg": "Generar cerdo arcoiris",
+  "item.guidemod.titanium_ingot": "Lingote de titanio",
+  "item.guidemod.titanium_nugget": "Pepita de titanio",
+  "item.guidemod.raw_titanium": "Mena de titanio",
+  "item.guidemod.tomato": "Tomate",
+  "item.guidemod.smart_blow_torch": "Smart blow torch",
+
+  "block.guidemod.blockbench_block": "Blockbench",
+  "block.guidemod.skeppy_face_block": "Skeppy face",
+  "block.guidemod.titanium_block": "Bloque de titanio",
+  "block.guidemod.titanium_ore": "Ore de titanio",
+  "block.guidemod.speedy_block": "bloque de velocidad",
+
+  "entity.guidemod.rainbow_pig_entity_egg": "Cerdo arcoiris",
+
+  "tooltip.guidemod.blowtorch_shift": "You are \u00A7epressing\u00A7r Shift key",
+  "tooltip.guidemod.blowtorch": "This is a tooltip"
+}
