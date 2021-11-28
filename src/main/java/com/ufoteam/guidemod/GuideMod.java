@@ -1,9 +1,7 @@
 package com.ufoteam.guidemod;
 
-import com.ufoteam.guidemod.init.GuideModBlocks;
-import com.ufoteam.guidemod.init.GuideModEntities;
-import com.ufoteam.guidemod.init.GuideModItems;
-import com.ufoteam.guidemod.init.GuideModSounds;
+import com.ufoteam.guidemod.init.*;
+import com.ufoteam.guidemod.utils.GlobalUtils;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -16,9 +14,13 @@ public class GuideMod {
 
         GuideModSounds.SOUNDS.register(bus);
         GuideModBlocks.BLOCKS.register(bus);
-        GuideModBlocks.BLOCK_ENTITIES.register(bus);
+        GuideModBlockEntities.BLOCK_ENTITIES.register(bus);
         GuideModItems.ITEMS.register(bus);
         GuideModEntities.ENTITIES.register(bus);
+
+        System.out.println("HOLA MUNDO = " + GlobalUtils.resourceLocation("titanium"));
+        MinecraftForge.EVENT_BUS.register(this);
     }
+
 
 }

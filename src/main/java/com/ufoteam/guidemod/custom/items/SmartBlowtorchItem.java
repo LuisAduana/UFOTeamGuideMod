@@ -69,4 +69,5 @@ public class SmartBlowtorchItem extends Item {
     private boolean canBlockTorch(Block block) {
         return BLOW_TORCH_ITEM_CRAFT.containsKey(block);
     }
+
 }

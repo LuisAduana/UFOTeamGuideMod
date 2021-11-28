@@ -1,6 +1,6 @@
 package com.ufoteam.guidemod.custom.entities;
 
-import com.ufoteam.guidemod.GlobalUtils;
+import com.ufoteam.guidemod.utils.GlobalUtils;
 import com.ufoteam.guidemod.init.GuideModEntities;
 import com.ufoteam.guidemod.init.GuideModItems;
 import com.ufoteam.guidemod.init.GuideModSounds;
@@ -71,4 +71,5 @@ public class RainbowPigEntity extends Animal {
     public AgeableMob getBreedOffspring(ServerLevel level, AgeableMob parent) {
         return GuideModEntities.RAINBOW_PIG_ENTITY.get().create(level);
     }
+
 }

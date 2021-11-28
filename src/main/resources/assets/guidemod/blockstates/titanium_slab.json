@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "guidemod:block/titanium_slab"
+    },
+    "type=double": {
+      "model": "guidemod:block/titanium_block"
+    },
+    "type=top": {
+      "model": "guidemod:block/titanium_slab_top"
+    }
+  }
+}
