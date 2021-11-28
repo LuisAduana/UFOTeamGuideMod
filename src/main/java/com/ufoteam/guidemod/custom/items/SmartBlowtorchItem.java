@@ -49,7 +49,7 @@ public class SmartBlowtorchItem extends Item {
                     p.broadcastBreakEvent(context.getHand());
                 });
             } else {
-                context.getPlayer().sendMessage(new TextComponent("No funciona en este objeto"), Util.NIL_UUID);
+                context.getPlayer().sendMessage(new TranslatableComponent("tooltip.guidemod.blowtorch_doesntwork"), Util.NIL_UUID);
             }
         }
 

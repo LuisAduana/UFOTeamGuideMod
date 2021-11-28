@@ -18,7 +18,6 @@ public class GuideMod {
         GuideModItems.ITEMS.register(bus);
         GuideModEntities.ENTITIES.register(bus);
 
-        System.out.println("HOLA MUNDO = " + GlobalUtils.resourceLocation("titanium"));
         MinecraftForge.EVENT_BUS.register(this);
     }
 

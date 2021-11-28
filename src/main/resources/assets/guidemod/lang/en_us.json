@@ -40,5 +40,6 @@
   "entity.guidemod.rainbow_pig_entity_egg": "Rainbow Pig",
 
   "tooltip.guidemod.blowtorch_shift": "You are \u00A7epressing\u00A7r Shift key",
-  "tooltip.guidemod.blowtorch": "This is a tooltip"
+  "tooltip.guidemod.blowtorch": "Extract the raw from ores",
+  "tooltip.guidemod.blowtorch_doesntwork": "Doesn't work on this object"
 }
