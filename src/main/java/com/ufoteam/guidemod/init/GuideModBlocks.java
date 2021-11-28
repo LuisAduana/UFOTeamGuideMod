@@ -1,8 +1,9 @@
 package com.ufoteam.guidemod.init;
 
+import com.ufoteam.guidemod.custom.blocks.ZucciniCrop;
 import com.ufoteam.guidemod.utils.GlobalUtils;
 import com.ufoteam.guidemod.custom.blocks.CraftingMineralsTable;
-import com.ufoteam.guidemod.custom.blocks.OatsBlock;
+import com.ufoteam.guidemod.custom.blocks.OatsCrop;
 import com.ufoteam.guidemod.custom.blocks.SpeedyBlock;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -43,11 +44,17 @@ public class GuideModBlocks {
     /**
      * Crops
      */
-    public static final RegistryObject<Block> OATS_CROP = BLOCKS.register(GuideModNames.oatsCrop, () -> new OatsBlock(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
+    public static final RegistryObject<Block> OATS_CROP = BLOCKS.register(GuideModNames.oatsCrop, () -> new OatsCrop(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
+    public static final RegistryObject<Block> ZUCCINI_CROP = BLOCKS.register(GuideModNames.zucciniCrop, () -> new ZucciniCrop(BlockBehaviour.Properties.copy(Blocks.WHEAT)));
 
     /**
      * Ores
      */
     public static final RegistryObject<Block> TITANIUM_ORE = BLOCKS.register(GuideModNames.titaniumOre, () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(1.2f, 6f)));
+
+    /**
+     * Fluids
+     */
+
 
 }

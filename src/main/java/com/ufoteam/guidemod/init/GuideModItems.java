@@ -8,9 +8,6 @@ import com.ufoteam.guidemod.init.customs.GuideModeArmorMaterials;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
-import net.minecraft.world.level.block.*;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.Material;
 import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.fmllegacy.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -35,8 +32,9 @@ public final class GuideModItems {
     /**
      * CropsItems
      */
-    public static final RegistryObject<Item> OATS = ITEMS.register(GuideModNames.oats, () -> new BlockItem(GuideModBlocks.OATS_CROP.get(), new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)
+    public static final RegistryObject<Item> OATS_SEED = ITEMS.register(GuideModNames.oats, () -> new BlockItem(GuideModBlocks.OATS_CROP.get(), new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)
             .food(new FoodProperties.Builder().nutrition(2).saturationMod(0.2f).build())));
+    public static final RegistryObject<Item> ZUCCINI_SEED = ITEMS.register(GuideModNames.zuccini, () -> new BlockItem(GuideModBlocks.ZUCCINI_CROP.get(), new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
 
     /**
      * Food items
@@ -92,4 +90,9 @@ public final class GuideModItems {
      * Entity Eggs items
      */
     public static final RegistryObject<Item> RAINBOW_PIG_ENTITY = ITEMS.register(GuideModNames.rainbowPigEntityEgg, () -> new ForgeSpawnEggItem(GuideModEntities.RAINBOW_PIG_ENTITY, 0x1E51ED, 0x34BD27, new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB)));
+
+    /**
+     * Buckets
+     */
+    public static final RegistryObject<Item> OIL_BUCKET = ITEMS.register("oil_bucket", () -> new BucketItem(() -> GuideModFluids.OIL_FLUID.get(), new Item.Properties().tab(GlobalUtils.GUIDEMOD_TAB).stacksTo(1)));
 }

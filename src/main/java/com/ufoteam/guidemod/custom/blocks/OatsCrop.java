@@ -10,7 +10,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.shapes.VoxelShape;
 
-public class OatsBlock extends CropBlock {
+public class OatsCrop extends CropBlock {
 
     private static final VoxelShape[] SHAPE_BY_AGE = new VoxelShape[]{
             Block.box(0.0D, 0.0D, 0.0D, 16.0D, 2.0D, 16.0D),
@@ -23,13 +23,13 @@ public class OatsBlock extends CropBlock {
             Block.box(0.0D, 0.0D, 0.0D, 16.0D, 16.0D, 16.0D)
     };
 
-    public OatsBlock(Properties properties) {
+    public OatsCrop(Properties properties) {
         super(properties);
     }
 
     @Override
     protected ItemLike getBaseSeedId() {
-        return GuideModItems.OATS.get();
+        return GuideModItems.OATS_SEED.get();
     }
 
     @Override

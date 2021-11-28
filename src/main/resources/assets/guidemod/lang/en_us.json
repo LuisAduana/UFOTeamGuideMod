@@ -9,7 +9,8 @@
   "item.guidemod.raw_titanium": "Raw titanium",
   "item.guidemod.tomato": "Tomato",
   "item.guidemod.smart_blow_torch": "Smart blow torch",
-  "item.guidemod.oats": "Oats",
+  "item.guidemod.oats": "Oats seeds",
+  "item.guidemod.zuccini": "Zuccini seeds",
   "item.guidemod.titanium_sword": "Titanium Sword",
   "item.guidemod.titanium_pickaxe": "Titanium Pickaxe",
   "item.guidemod.titanium_axe": "Titanium Axe",
@@ -19,7 +20,7 @@
   "item.guidemod.titanium_chestplate": "Titanium Chestplate",
   "item.guidemod.titanium_leggings": "Titanium Leggings",
   "item.guidemod.titanium_boots": "Titanium Boots",
-
+  "item.guidemod.oil_bucket": "Oil bucket",
 
   "block.guidemod.crafting_minerals_table": "Crafting minerals table",
   "block.guidemod.skeppy_face_block": "Skeppy face",
@@ -36,6 +37,7 @@
   "block.guidemod.titanium_button": "Titanium button",
   "block.guidemod.titanium_pressure_plate": "Titanium pressure plate",
   "block.guidemod.oats_crop": "Oats crop",
+  "block.guidemod.zuccini_crop": "Zuccini crop",
 
   "entity.guidemod.rainbow_pig_entity_egg": "Rainbow Pig",
 

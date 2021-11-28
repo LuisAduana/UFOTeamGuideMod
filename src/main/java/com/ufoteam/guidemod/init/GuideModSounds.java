@@ -15,7 +15,7 @@ public final class GuideModSounds {
     public static final RegistryObject<SoundEvent> RAINBOW_PIG_ENTITY_SOUND_AMBIENT = SOUNDS.register(GuideModNames.rainbowPigEntityAmbient, getSound(GuideModNames.rainbowPigEntityAmbient));
     public static final RegistryObject<SoundEvent> RAINBOW_PIG_ENTITY_SOUND_HURT = SOUNDS.register(GuideModNames.rainbowPigEntityHurt, getSound(GuideModNames.rainbowPigEntityHurt));
     public static final RegistryObject<SoundEvent> RAINBOW_PIG_ENTITY_SOUND_DEATH = SOUNDS.register(GuideModNames.rainbowPigEntityDeath, getSound(GuideModNames.rainbowPigEntityDeath));
-    public static final RegistryObject<SoundEvent> ARMOR_EQUIP_TITANIUM = SOUNDS.register("item.armor.equip_titanium", () -> new SoundEvent(new ResourceLocation(GlobalUtils.MODID, "item.armor.equip_titanium")));
+    public static final RegistryObject<SoundEvent> ARMOR_EQUIP_TITANIUM = SOUNDS.register(GuideModNames.armorEquipTitaniumSound, () -> new SoundEvent(new ResourceLocation(GlobalUtils.MODID, GuideModNames.armorEquipTitaniumSound)));
 
     private static Supplier<SoundEvent> getSound(String name) {
         return () -> new SoundEvent(GlobalUtils.resourceLocation(name));

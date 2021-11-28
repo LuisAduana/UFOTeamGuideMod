@@ -34,6 +34,7 @@ public class GuideModNames {
     public static final String rainbowApple = "rainbow_apple";
     public static final String tomato = "tomato";
     public static final String oats = "oats";
+    public static final String zuccini = "zuccini";
 
     /**
      * Weapons
@@ -60,6 +61,7 @@ public class GuideModNames {
      * Crops
      */
     public static final String oatsCrop = "oats_crop";
+    public static final String zucciniCrop = "zuccini_crop";
 
     /**
      * Eggs

@@ -16,6 +16,7 @@ public class GuideMod {
         GuideModBlocks.BLOCKS.register(bus);
         GuideModBlockEntities.BLOCK_ENTITIES.register(bus);
         GuideModItems.ITEMS.register(bus);
+        GuideModFluids.FLUIDS.register(bus);
         GuideModEntities.ENTITIES.register(bus);
 
         MinecraftForge.EVENT_BUS.register(this);

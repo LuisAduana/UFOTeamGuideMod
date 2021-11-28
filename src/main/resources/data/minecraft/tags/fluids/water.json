@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "guidemod:oil_fluid",
+    "guidemod:oil_flowing"
+  ]
+}

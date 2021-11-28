@@ -31,6 +31,7 @@ public final class ClientModEvents {
     public static void registerBlocks(FMLClientSetupEvent event) {
         event.enqueueWork(() -> {
             ItemBlockRenderTypes.setRenderLayer(GuideModBlocks.OATS_CROP.get(), RenderType.cutout());
+            ItemBlockRenderTypes.setRenderLayer(GuideModBlocks.ZUCCINI_CROP.get(), RenderType.cutout());
             ItemBlockRenderTypes.setRenderLayer(GuideModBlocks.CRAFTING_MINERALS_TABLE.get(), RenderType.cutout());
 
             ItemBlockRenderTypes.setRenderLayer(GuideModBlocks.TITANIUM_DOOR.get(), RenderType.cutout());
