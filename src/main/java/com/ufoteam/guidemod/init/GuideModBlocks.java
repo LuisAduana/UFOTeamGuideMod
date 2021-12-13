@@ -1,6 +1,7 @@
 package com.ufoteam.guidemod.init;
 
 import com.ufoteam.guidemod.custom.blocks.ZucciniCrop;
+import com.ufoteam.guidemod.custom.liquids.FixedLiquidBlock;
 import com.ufoteam.guidemod.utils.GlobalUtils;
 import com.ufoteam.guidemod.custom.blocks.CraftingMineralsTable;
 import com.ufoteam.guidemod.custom.blocks.OatsCrop;
@@ -55,6 +56,6 @@ public class GuideModBlocks {
     /**
      * Fluids
      */
-
+    public static final RegistryObject<LiquidBlock> OIL_LIQUID = GuideModBlocks.BLOCKS.register("oil", () -> new FixedLiquidBlock(() -> GuideModFluids.OIL_FLUID.get(), BlockBehaviour.Properties.of(Material.WATER).noCollission().strength(100f).noDrops()));
 
 }
